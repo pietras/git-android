@@ -1,0 +1,66 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.piotr.ebiznes_kalkulator.MenuFragment">
+
+
+        <TextView
+            android:id="@+id/appText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/application_name"
+            android:gravity="center"
+            android:textSize="40dp"
+
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            />
+
+        <Button
+            android:id="@+id/gotoSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simple_text"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <Button
+            android:id="@+id/gotoAdvanced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/advanced_text"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <Button
+            android:id="@+id/gotoAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_text"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <Button
+            android:id="@+id/gotoExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exit_text"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+    </TableLayout>

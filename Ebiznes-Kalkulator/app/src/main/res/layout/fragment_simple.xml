@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.piotr.program_kalkulator.SimpleCalculatorActivity">
+
+    <TextView
+        android:id="@+id/wyswietlacz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="right"
+        android:textSize="30dp"
+        />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/bksp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="Bksp"
+            />
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="C"
+            android:onClick="ButtonClickHandler"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/znak"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="+/-"
+            android:onClick="ButtonClickHandler"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/num7"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="7"
+            />
+        <Button
+            android:id="@+id/num8"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="8"
+            />
+        <Button
+            android:id="@+id/num9"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="9"
+            />
+        <Button
+            android:id="@+id/div"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="/"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/num4"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="4"
+            />
+        <Button
+            android:id="@+id/num5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="5"
+            />
+        <Button
+            android:id="@+id/num6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="6"
+            />
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="*"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="1"
+            />
+        <Button
+            android:id="@+id/num2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="2"
+            />
+        <Button
+            android:id="@+id/num3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="3"
+            />
+        <Button
+            android:id="@+id/min"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="-"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/num0"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="0"
+            />
+        <Button
+            android:id="@+id/przecinek"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text=","
+            />
+        <Button
+            android:id="@+id/equals"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="="
+            />
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.25"
+            android:text="+"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
